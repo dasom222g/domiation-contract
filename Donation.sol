@@ -6,4 +6,9 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
 contract Donation is ERC721Enumerable {
   constructor() ERC721("Donation", "SDN") {}
+
+  function mintDonation() public {
+    uint tokenId = totalSupply() + 1;  
+    _mint(msg.sender, tokenId);
+  }
 }
