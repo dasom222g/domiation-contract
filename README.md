@@ -1,4 +1,6 @@
-# MetaAdi-contract
+# metaAdi-contract  
+Dapp To donate to Ukraine about war
+
 ---------------------------------------
 
 ## Why MetaAdi?
@@ -14,8 +16,3 @@ This app is cryptocurrency donation platform.
 
 ## Usage
 Comming soon
-
-
-  
-
-
